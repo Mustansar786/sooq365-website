@@ -1,0 +1,104 @@
+.para{
+    margin-top:82px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.para1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.button {
+    width: 120px;
+    height: 38px;
+    left: 688px;
+    background: #56C3C5;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+.saved_wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.content_wrapper{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 21px;
+}
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 35px !important;
+}
+.grid_card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: 21px;
+    align-items: stretch;
+}
+.card{
+border: 1.25177px solid rgba(177, 187, 213, 0.63);
+border-radius: 8px;
+position: relative !important;
+height: 360px;
+}
+
+.thumb{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    height: 230px;
+}
+.vehicle_name{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.prices_warpper{
+height: 44px;
+background: #FAFAFA;
+opacity: 0.9;
+border-radius: 0px 0px 9px 9px;
+padding : 0px 15px;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+.highlightPrice{
+    font-size: 14px;
+    line-height: 16px;
+    color: #56C3C5;
+    margin-right: 5px;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+.pricing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aed{
+    color: #040404;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1500px){
+.title {
+   margin-left: 21px;
+}
+}

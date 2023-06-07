@@ -1,0 +1,10 @@
+.resend {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.resend:hover {
+    color:var(--theme_color);
+    cursor: pointer;
+}

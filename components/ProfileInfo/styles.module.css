@@ -1,0 +1,75 @@
+.p_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -4rem;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.profile_section{
+    background-color: white;
+    padding: 1rem;
+    margin: 3rem 1rem 1rem 1rem;
+    border-radius: 0.3rem;
+}
+.profile_img{
+    display: flex;
+    justify-content: center;
+}
+
+.user_status{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    color: var(--urent_gray_text);
+}
+
+.status{
+    text-align: center;
+}
+
+.text_center{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.rent_info{
+    margin-top: 1px;
+}
+
+.rent_info h3,.rent_info span {
+    color: var(--urent_gray_text);
+    font-size: 1rem;
+}
+
+.rent_info span {
+    color: var(--urent_gray_text);
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.bookings{
+    text-align: center;
+}
+
+.hr{
+    border: 0.1px solid var(--urent_gray_text);
+    margin-bottom: 1rem;
+}
+
+
+.looks_link {
+    border: 0;
+    background-color: transparent;
+    font-size: 1em;
+    color: var(--theme_color);
+    outline: none;
+}
+
+.looks_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

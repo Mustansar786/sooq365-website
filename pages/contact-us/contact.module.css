@@ -1,0 +1,168 @@
+.ContactUs {
+    display: block;
+    height: auto;
+    min-height: 600px;
+    -webkit-box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    margin: 3% 6%;
+    z-index: 1;
+    font-family: Nunito;
+}
+
+.ContactUsLine {
+    width: 6vw;
+    border-bottom: 2px solid var(--theme_color);
+    margin-bottom: 10px;
+    margin-left: -8px;
+    display: flex;
+}
+
+.ContactUsContent {
+    display: flex;
+    padding: 7% 7% 7% 7%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+.ContactUsContent .fasIcon12 {
+    height: 30px !important;
+    margin-right: 10px;
+}
+
+.ContactUsContent .fasIcon16 {
+    height: 25px !important;
+    margin-right: 10px;
+}
+
+.ContactUsContent .ContactUsAddress {
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.ContactUsContent .formContainer {
+    flex: 1;
+    padding: 10px;
+}
+
+.ContactUsContent h1 {
+    flex: 1;
+    color: #2f3545;
+    font-family: Nunito;
+    font-size: 2vw;
+    font-weight: 500;
+    -webkit-transform: translateX(-1%);
+    -ms-transform: translateX(-1%);
+    transform: translateX(-1%);
+}
+
+.ContactUsTitle {
+    display: flex;
+    padding: 14px 0px;
+    color: var(--theme_color);
+    font-weight: 500;
+    font-family: Nunito;
+    font-size: 1.6vw;
+    margin-top: 4%;
+}
+
+.ContactBody {
+    display: flex;
+    margin-left: 6.2vw;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .9vw;
+    font-family: Nunito;
+    text-align: justify;
+}
+
+.ContactUsText {
+    padding-left: 8px;
+}
+
+.ContactUsContent p,
+.ContactUsContent span {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.ContactUsContent .ContactUsAddress p .pRtl {
+    text-align: 'right' !important;
+    direction: 'ltr' !important;
+}
+
+.ContactUsContent h4 {
+    display: none;
+}
+
+.ContactUsContent .formContainer .btn {
+    background: var(--theme_color);
+    color: white;
+    margin-top: 10px;
+    padding: 1em 2em;
+}
+
+.Mt10
+{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .ContactUsTitle {
+        font-size: 1em;
+    }
+
+    .aboutBody {
+        font-size: 0.75em;
+    }
+
+    .ContactUsContent h1 {
+        font-size: 1.9em;
+        padding-top: 1.4em;
+    }
+
+    .ContactUsContent {
+        display: unset;
+        padding: 1em !important;
+    }
+
+    .ContactUs .map {
+        height: 300px;
+    }
+
+    .ContactUsContent h3 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .ContactUsContent .fasIcon12 {
+        height: 20px !important;
+    }
+
+    .ContactUsContent .fasIcon16 {
+        height: 15px !important;
+        margin-right: 10px;
+    }
+
+    .ContactUsContent .ContactUsAddress {
+
+        width: 100%;
+    }
+
+    .ContactUsContent .formContainer {
+        padding-top: 20px;
+    }
+
+    .ContactUsContent h4 {
+        display: block;
+        font-size: 1.5em;
+        padding-top: 1.4em;
+        font-family: Nunito;
+        font-weight: 600;
+    }
+    .Error {
+        color: red;
+    }
+}

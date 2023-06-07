@@ -1,0 +1,70 @@
+
+.w_label{
+    color:var(--theme_color);
+    text-align: center;
+    
+}
+
+.heading_sec{
+    display: flex;
+    justify-content: space-around;
+    h4{
+        margin: 0;
+    }
+}
+
+.timeLineContainer {
+    margin: 2rem;
+    position: relative;
+    .day{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        .center{
+            text-align: center;
+            flex-grow: 1;
+        }
+    }
+}
+
+.calendar{
+    position: relative;
+    .hide_calendar {
+        display: none;
+    }
+    
+    .calendar_100{
+        width: 97% !important;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .calender_close_icon{
+        position: absolute ;
+        top: 4px;
+        right: 2.2rem ;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .calender_close_icon_hide{
+        display: none;
+    }
+    
+}
+
+
+.save_button{
+    display: flex;
+    justify-content: center;
+}
+
+
+.filter_heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em ;
+    .title_heading p{
+        color: var(--urent_gray_text); 
+    font-size: 1rem;
+     }
+}

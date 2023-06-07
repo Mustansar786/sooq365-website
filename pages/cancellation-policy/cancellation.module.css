@@ -1,0 +1,103 @@
+.cancellation{
+    display: flex;
+    height: auto;
+    min-height: 600px;
+    -webkit-box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    margin: 3% 10%;
+}
+.cancellationLine{
+    width: 6vw;
+    border-bottom: 2px solid var(--theme_color);
+    margin-bottom: 10px;
+    margin-left: -8px;
+}
+.cancellationContent{
+    display: flex;
+    flex-direction: column;
+    padding: 7% 7% 7% 0%;
+}
+
+.cancellationContent h1{
+    color: #2f3545;
+    font-family: Nunito;
+    font-size: 2vw;
+    margin-left: 6.6vw;
+    width: 81%;
+    font-weight: 500;
+    display: inline-block;
+    -webkit-transform: translateX(-1%);
+    -ms-transform: translateX(-1%);
+    transform: translateX(-1%);
+}
+.cancellationTitle{
+    display: flex;
+    padding: 14px 0px;
+    color: var(--theme_color);
+    font-weight: 500;
+    font-family: Nunito;
+    font-size: 1.6vw;
+    margin-top: 4%;
+}
+.cancellationBodyRTL{
+    display: flex;
+    margin-right: 6.2vw;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .9vw;
+    font-family: Nunito;
+    text-align: justify;
+}
+
+.cancellationLineRTL{
+    width: 6vw;
+    border-bottom: 2px solid var(--theme_color);
+    margin-bottom: 10px;
+    margin-right: -8px;
+}
+.cancellationContentRTL{
+    padding: 7% 0% 7% 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cancellationContentRTL h1 {
+    color: #2f3545;
+    font-family: Nunito;
+    font-size: 2vw;
+    margin-right: 6.6vw;
+    width: 81%;
+    font-weight: 500;
+    display: inline-block;
+    -webkit-transform: translateX(-1%);
+    -ms-transform: translateX(-1%);
+    transform: translateX(-1%);
+}
+
+
+.cancellationBody{
+    display: flex;
+    margin-left: 6.2vw;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .9vw;
+    font-family: Nunito;
+    text-align: justify;
+}
+.cancellationText{
+    padding-left: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .cancellationTitle{
+        font-size: 1em;
+    }
+    .cancellationBody, .cancellationBodyRTL {
+        font-size: 0.75em;
+    }
+    .cancellationContent h1 , .cancellationContentRTL h1{
+        font-size: 1.6em;
+    }
+  }

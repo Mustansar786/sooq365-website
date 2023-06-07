@@ -1,0 +1,20 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier" // Add "prettier" last. This will turn off eslint rules conflicting with prettier. This is not what will format our code.
+  ],
+  "rules": {
+    // I suggest you add those two rules:
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-module-boundary-types": ["off"],
+    "@next/next/no-img-element": "off",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn", // <--- THIS IS THE NEW RULE,
+    "@typescript-eslint/no-var-requires": "warn", // it will allow to use requires
+    "no-console": "error",
+    "react/display-name": "warn"
+  }
+}

@@ -1,0 +1,436 @@
+._header {
+    /* height: 4rem; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.headerText {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align:center
+}
+
+._urentLogo {
+    width: 65px;
+}
+
+._urentLogoWidth {
+    width: 160px;
+}
+
+._header a {
+    display: flex;
+    padding: 12px 16px;
+    font-size: medium;
+    font-weight: 500;
+    /* margin: 0px 5px; */
+}
+
+/* ._header a:hover {
+    display: flex;
+    padding: 12px 16px;
+    font-size: medium;
+    font-weight: 500;
+    background: #56C3C5;
+    color: white;
+    border-radius: 3px;
+} */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.activeItem {
+    border-bottom: 3px solid #56C3C5;
+    display: flex;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    /* width:60%;
+    margin-top: -5px; */
+}
+
+.sidebarMenu {
+    margin-top: 30px;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    text-align: left;
+    font-size: medium;
+    padding: 0px 20px;
+}
+
+.sidebarMenu:lang(ar){
+    text-align: right;
+}
+
+.sidebarMenu a {
+    color: white;
+}
+
+.sidebarMenuActive {
+    color: white !important;
+    border-bottom: 2px solid lightseagreen;
+    text-align: left;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.sidebarMenuActive:lang(ar){
+    text-align: right;
+}
+
+._sidebar_icon {
+    display: none;
+}
+
+._sidebar {
+    display: none;
+}
+
+._header_container {
+    z-index: 1;
+    /* margin-left: 6%;
+    margin-right: 4%; */
+}
+
+.headerMobile {
+    display: none;
+}
+
+.search select::placeholder, .search input::placeholder{
+    color: rgb(183,184,186,60%)
+}
+
+.menuicon {
+    background: white;
+    padding: 3px ;
+    border-radius: 48%;
+    padding-bottom: 0 ;
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0.2em 1em; */
+    /* background: white; */
+    border-radius:6px;
+    align-items: center;
+    width: auto;
+}
+
+
+
+.search input{
+    border: 0 !important;
+    outline: 0 !important;
+    padding: 1%;
+    /* background: transparent; */
+    width: 20rem;
+}
+
+.search .dateRange{
+    border: 0 !important;
+    outline: 0 !important;
+    height: 1.72em;
+    background: transparent;
+    width: 8rem;
+}
+
+.search .searchDate{
+    border-left: 1px solid #C7C7C7 !important;
+    min-width: 39%
+}
+.searchDate .rs-picker-toggle-active{
+    box-shadow: unset !important;
+}
+
+.search .searchBtn{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    /* padding: 1em;
+    margin-left: 2em;
+    border-radius: 0.4em;
+    width: 5em; */
+    padding: 0.5em;
+    margin-right: 5px;
+    border-radius: 2.5rem;
+    width: 2.5rem;
+    background-color:  #56C3C5;
+    cursor: pointer;
+}
+
+.viewAll {
+    height: 50px !important;
+}
+
+.buttoncontainer {
+    display:inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buttoncontainer > div{
+    margin: 6px;
+}
+
+.modal {
+    border-radius: 30px !important;
+}
+
+@media screen and (max-width: 800px) {
+
+    .search {
+        width: 100% !important;
+    }
+
+    .buttoncontainer {
+        display: flex;
+        justify-content: center;
+        /* margin-top: 4%; */
+        flex-direction: column;
+        padding: 6%;
+        z-index:1;
+    }
+
+    .buttoncontainer button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    ._header {
+        display: none;
+    }
+    .home_dup_container {
+        display: none !important;
+    }
+
+    ._sidebar {
+        display: block;
+    }
+
+    ._sidebar_icon {
+        display: flex;
+        height: 7rem;
+        width: 5rem;
+        align-items: center;
+
+
+    }
+
+    .headerText {
+        font-size: 0.4em;
+    }
+
+    .headerMobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerMobile .filterMenu {
+        background: var(--light_theme_color) !important;
+        /* height: 32px; */
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        /* padding-right: 0px; */
+        padding-right: 0.65em;
+        padding-left: 0.75em;
+        margin-top: 0.9em;
+        margin-right: 0.5em;
+        border-radius: 4px;
+    }
+
+    .headerMobile .filterMenu:lang(ar) {
+        background: var(--light_theme_color) !important;
+        /* height: 32px; */
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        /* padding-right: 0px; */
+        padding-left: 0.65em;
+        padding-right: 0.75em;
+        margin-top: 0.9em;
+        margin-left: 0.5em;
+        border-radius: 4px;
+    }
+
+    .headerMobile .filterMenu_selected {
+        background: var(--theme_color) !important;
+        /* height: 32px; */
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        /* padding-right: 0px; */
+        padding-right: 0.65em;
+        padding-left: 0.75em;
+        margin-top: 0.9em;
+        margin-right: 0.5em;
+        border-radius: 4px;
+    }
+
+    .headerMobile .filterMenu_selected:lang(ar) {
+        background: var(--theme_color) !important;
+        /* height: 32px; */
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        /* padding-right: 0px; */
+        padding-left: 0.65em;
+        padding-right: 0.75em;
+        margin-top: 0.9em;
+        margin-left: 0.5em;
+        border-radius: 4px;
+    }
+
+ 
+
+    .headerMobile .mainMenu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .headerMobile .searchInput {
+        display: flex;
+        height: 30px;
+        align-items: center;
+        border: 1px solid lightgrey;
+        border-radius: 6px;
+        width: 100%;
+        margin: 1em 0.65em;
+        padding: 2%;
+        background-color: white;
+    }
+
+    .headerMobile .searchInput input {
+        border: 0 !important;
+        outline: 0 !important;
+        font-size: 10px;
+        font-family: 'Nunito';
+        width: 100%;
+    }
+
+}
+
+@media screen and (width: 768px){
+    .headerMobile .mainMenu {
+        display: flex;
+        justify-content: space-between;
+        width: -webkit-fill-available;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+
+    ._urentLogoWidth {
+        width: 70px;
+    }
+
+    ._urentLogo {
+        width: 50px !important;
+    }
+
+    .headerText {
+        font-size: 0.5em;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+    ._urentLogo {
+        width: 30px !important;
+        /* margin-left: -20px; */
+        margin-top: 4px;
+        margin-bottom: 4px;
+        object-fit: contain;
+        margin-right: 0em;
+    }
+    ._urentLogo:lang(ar) {
+        width: 30px !important;
+        /* margin-right: -20px; */
+        margin-top: 4px;
+        margin-bottom: 4px;
+        object-fit: contain;
+        margin-left: 0em;
+    }
+    .empty_div {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px){
+    ._urentLogo {
+        margin-right: 0em;
+    }
+    ._urentLogo:lang(ar) {
+        margin-left: 0em;
+    }
+}
+
+.home_searchbox {
+    position:relative;
+    width:500px;
+    /* right: 50px; */
+}
+
+.home_dup_container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (min-width: 859px) and (max-width: 967px) {
+    ._header a {
+        padding: 12px 5px;
+       
+    }    
+    .headerText {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 967px) {
+    ._header a {
+        padding: 12px 6px;
+        font-size: 12px;
+       
+    }    
+}
+
+@media screen and (min-width: 968px) and (max-width: 1061px) {
+    ._header a {
+        /* padding: 12px 0px; */
+        padding:12px 10px;
+    }    
+}
+
+.empty_div {
+    height: 300px;
+}
+._svgIcon {
+    display: inline-block;
+    fill: #cbc7c7;
+    line-height: 1;
+    stroke: #d7d6d6;
+    stroke-width: 0px;
+}
+
+/* @media screen and (max-width : 1779px){
+    .home_searchbox {
+        display: none;
+    }
+    .home_dup_container {
+        display: flex;
+        justify-content: center;
+    }
+} */
+

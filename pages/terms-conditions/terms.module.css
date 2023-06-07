@@ -1,0 +1,352 @@
+.terms {
+    display: flex;
+    height: auto;
+    min-height: 600px;
+    -webkit-box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    margin: 3% 10%;
+    padding-right: 2em !important;
+}
+
+.termsRTL {
+    display: flex;
+    height: auto;
+    min-height: 600px;
+    -webkit-box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    box-shadow: 0 0 34px 3px rgb(20 83 155 / 5%);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 2em !important;
+}
+.termsLine {
+    width: 6vw;
+    border-bottom: 2px solid var(--theme_color);
+    margin-bottom: 10px;
+    margin-left: -8px;
+}
+
+.termsLineRTL {
+    width: 6vw;
+    border-bottom: 2px solid var(--theme_color);
+    margin-bottom: 10px;
+    margin-right: -8px;
+}
+.termsContent {
+    display: flex;
+    flex-direction: column;
+    padding: 7% 7% 7% 0%;
+}
+
+.termsContentRTL{
+    display: flex;
+    flex-direction: column;
+    padding: 7% 0% 7% 7%;
+}
+
+.termsContent h1 {
+    color: #2f3545;
+    font-family: Nunito;
+    font-size: 2vw;
+    margin-left: 6.6vw;
+    width: 81%;
+    font-weight: 500;
+    display: inline-block;
+    -webkit-transform: translateX(-1%);
+    -ms-transform: translateX(-1%);
+    transform: translateX(-1%);
+}
+
+.termsContentRTL h1 {
+    color: #2f3545;
+    font-family: Nunito;
+    font-size: 2vw;
+    margin-right: 6.6vw;
+    width: 81%;
+    font-weight: 500;
+    display: inline-block;
+    -webkit-transform: translateX(-1%);
+    -ms-transform: translateX(-1%);
+    transform: translateX(-1%);
+}
+
+.termsTitle {
+    display: flex;
+    padding: 14px 0px;
+    color: var(--theme_color);
+    font-weight: 500;
+    font-family: Nunito;
+    font-size: 1.6vw;
+    margin-top: 4%;
+}
+
+.termList .listTitle {
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.termBody {
+    margin-left: 6.2vw;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .8vw;
+    font-family: Nunito;
+    text-align: justify;
+}
+
+.termBodyRTL {
+    margin-right: 6.2vw;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .8vw;
+    font-family: Nunito;
+    text-align: justify;
+}
+
+.termsMainBody {
+    margin-left: 16%;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .85vw;
+    font-family: Nunito;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+.termsMainBodyRTL {
+    margin-right: 16%;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .85vw;
+    font-family: Nunito;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+
+.termsMainBody p {
+    margin-left: -5%;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .8vw;
+    font-family: Nunito;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+.termsMainBodyRTL p {
+    margin-right: -5%;
+    min-width: 90px;
+    color: var(--dark_greyish_blue);
+    line-height: 1.9;
+    font-size: .8vw;
+    font-family: Nunito;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+.termsText {
+    padding-left: 8px;
+}
+.termsTextRTL {
+    padding-right: 8px;
+}
+
+.termsMessage {
+    font-size: 0.9vw;
+    margin-left: 12%;
+    text-align: justify;
+    padding: 20px 0px;
+    font-family: Nunito;
+    color: var(--dark_greyish_blue);
+}
+
+.termsMessageRTL {
+    font-size: 0.9vw;
+    margin-right: 12%;
+    text-align: justify;
+    padding: 20px 0px;
+    font-family: Nunito;
+    color: var(--dark_greyish_blue);
+}
+
+.termsMessageRTL {
+    font-size: 0.9vw;
+    margin-right: 12%;
+    text-align: justify;
+    padding: 20px 0px;
+    font-family: Nunito;
+    color: var(--dark_greyish_blue);
+}
+
+.termsMessage b {
+    font-weight: 600;
+    ;
+}
+
+.termBody h4,
+.termSection h4 {
+    font-weight: bolder;
+    font-size: 0.9vw;
+    text-decoration: underline;
+    padding-top: 2%;
+    color: var(--dark_greyish_blue);
+}
+
+.termSection {
+    padding-bottom: 10px;
+}
+
+.termSection {
+    padding-bottom: 10px;
+}
+
+.termSection h4,
+.termSection p {
+    margin-left: 12%;
+    font-size: 1vw;
+    color: var(--dark_greyish_blue);
+}
+
+.termSectionRTL h4,
+.termSectionRTL p {
+    margin-right: 12%;
+    font-size: 1vw;
+    color: var(--dark_greyish_blue);
+}
+
+.termBody .url {
+    display: flex;
+    flex-direction: column;
+}
+
+.termFines {
+    padding-bottom: 10px;
+}
+
+.termFines h3,
+.termFines h4 {
+    font-weight: bolder;
+    font-size: 0.9vw;
+    padding-top: 2%;
+    color: var(--dark_greyish_blue);
+}
+
+.termFines h3 {
+    font-size: 1.3vw;
+}
+
+.guestFines {
+    margin-left: 12%;
+}
+
+.guestFinesRTL{
+    margin-right: 12%;
+}
+.guestFinesRTL .ui.table thead th, .guestFinesRTL .ui.table tr td{
+    text-align: right !important;
+    color: forestgreen
+}
+.termsFooter {
+    display: block;
+    font-size: medium;
+    line-height: 35px;
+    padding: 25px 0px;
+}
+
+.termsFooter p{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .terms{
+        margin: 1%;
+    }
+    .termsTitle {
+        font-size: 1em;
+    }
+
+    .aboutBody {
+        font-size: 0.75em;
+    }
+
+    .termsContent h1,.termsContentRTL h1 {
+        font-size: 1.6em;
+    }
+
+    .termsMainBody ,.termsMainBodyRTL{
+        font-size: 0.75em;
+        margin-left: 6%;
+        padding-right: 7%;
+    }
+
+    .termList .listTitle {
+        font-size: 1em;
+    }
+
+    .termBody h4,.termBodyRTL h4 {
+        font-size: 13px;
+    }
+
+    .termsMessage,
+    .termsMainBody p {
+        font-size: 0.8em;
+    }
+
+    .termsMessageRTL,
+    .termsMainBodyRTL p {
+        font-size: 0.8em;
+    }
+
+    .termBody ol>li,  .termBodyRTL ol>li{
+        font-size: 12px;
+    }
+
+    .termBody .url a,.termBodyRTL .url a {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .termSection h4,
+    .termSection p {
+        margin-left: 6%;
+        font-size: 0.75em;
+    }
+
+
+    .termSectionRTL h4,
+    .termSectionRTL p{
+        font-size: 0.75em;
+        margin-left: 4%;
+    }
+
+    .termFines{
+        margin-left: 2%;
+    }
+    .termFines h4 {
+        font-size: 14px;
+    }
+
+    .termFines h3 {
+        font-size: 16px;
+    }
+
+    .termSection,
+    .termsMessage,
+     .termsMessageRTL {
+        padding-right: 2em;
+    }
+
+    .guestFines {
+        margin-left: 0;
+        padding: 1.5em;
+    }
+    .termsFooter{
+        margin: 0;
+    }
+}

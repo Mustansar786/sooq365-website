@@ -1,0 +1,161 @@
+.szh-menu__item--active{
+    background-color: #56C3C5 !important;
+}
+
+.MuiPagination-ul li button{
+    /* border: 1px solid;
+    padding: 7.25px; */
+    /* color: #fff; */
+}
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #56C3C5 !important;
+    color: #fff !important;
+}
+.css-1ba2zw7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: #56C3C5 !important;
+    color: #fff !important;
+}
+.css-1xr9krm.Mui-selected{
+    background-color: #56C3C5 !important;
+    color: #fff !important;
+}
+
+.css-19d20mt.Mui-selected{
+  background-color: #56C3C5 !important;
+  color: #fff !important;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1{
+  background-color: #56C3C5 !important;
+}
+
+.css-t752vm{
+  background-color: #56C3C5 !important;
+}
+
+.reviews-carousel img{
+    bottom: 0px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+  width: 7rem !important;
+  height: 1.7rem !important;
+}
+
+.css-4ff9q7{
+  width: 7rem !important;
+  height: 1.7rem !important;
+}
+
+
+@media screen and (min-width: 550px) {
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+  width: 13rem !important;
+  height: 2.7rem !important;
+}
+
+.css-4ff9q7{
+  width: 13rem !important;
+  height: 2.7rem !important;
+}
+
+.css-z7uhs0-MuiStepConnector-line{
+  border-top-width: 2px !important;
+  position: relative !important;
+  top: 7px !important;
+}
+
+.css-95m0ql{
+  border-top-width: 2px !important;
+  position: relative !important;
+  top: 7px !important;
+}
+
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #56C3C5 !important;
+}
+
+.css-4ff9q7.Mui-active{
+  color: #56C3C5 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #56C3C5 !important;
+}
+
+.css-4ff9q7.Mui-completed{
+  color: #56C3C5 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+  color: #EDF0F9 !important;
+}
+
+.css-4ff9q7{
+  color: #EDF0F9 !important;
+}
+
+
+
+.css-yk16xz-control{
+  background-color: #FBFCFE !important;
+  border: 0.6px solid #ECF0FE !important;
+}
+
+.input input{
+  background-color: #FBFCFE !important;
+  border: 0.6px solid #ECF0FE !important;
+}
+
+.content-container{
+  width: 90%;
+}
+
+/* --------------------------------------------------------------EMAIL VERIFICATION MODAL ---------------------------------------------------------- */
+
+#email_verification {
+    font-size: 1rem;
+    
+    box-sizing: border-box;
+    color: #333;
+    position: relative;
+    /* width: 30vw; */
+  }
+  
+  #email_verification #mobile-dialog {
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 10px 50px;
+  }
+
+  #email_verification #dialog {
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 50px 50px;
+  }
+
+  #email_verification #section_button{
+    margin: 0px auto;
+    padding: 0px 50px 50px;
+  }
+
+  #section_button_mobile{
+    margin: 0px auto;
+    padding: 0px 20px 50px;
+  }
+
+  #email_verification #dialog h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    line-height: 27.28px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+
+
+/* --------------------------------------------------------------END EMAIL VERIFICATION MODAL ---------------------------------------------------------- */
+

@@ -1,0 +1,32 @@
+
+
+.hide_calendar {
+    display: none;
+}
+
+.calendar_100{
+    width: 97% !important;
+    position: absolute;
+    z-index: 1;
+}
+
+.calender_close_icon{
+    position: absolute ;
+    top: 34px;
+    right: 10px ;
+    cursor: pointer;
+}
+.calender_close_icon_hide{
+    display: none;
+}
+
+
+.save_button_area{
+    display: flex;
+     margin-top:3rem;  
+     justify-content: center;
+}
+
+.account {
+    padding:0px 30px;
+}

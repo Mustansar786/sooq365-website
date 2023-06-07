@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196" height="54" viewBox="0 0 196 54">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="44" height="54" transform="translate(-0.484 -0.344)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_12" data-name="Group 12" transform="translate(0.484 0.344)">
+    <text id="Get_It_On_App_Store" data-name="Get It On
+App Store" transform="translate(61.516 14.656)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="0">Get It On</tspan><tspan font-size="28" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="29">App Store</tspan></tspan></text>
+    <g id="Group_10" data-name="Group 10" transform="translate(0 0)">
+      <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+        <g id="Group_8" data-name="Group 8" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="Path_6" data-name="Path 6" d="M389.172,227.246c-4.54,7.878-1.654,19.834,3.367,27.083,2.506,3.624,5.043,6.878,8.518,6.878.065,0,.131,0,.2,0a10.512,10.512,0,0,0,3.953-1.054,10.831,10.831,0,0,1,4.683-1.11,10.192,10.192,0,0,1,4.458,1.074,9.448,9.448,0,0,0,4.271,1.024c3.914-.073,6.318-3.584,8.438-6.681a29.642,29.642,0,0,0,3.7-7.573l.015-.048a.441.441,0,0,0-.234-.54l-.032-.013a11.223,11.223,0,0,1-6.8-10.277,11.552,11.552,0,0,1,5.458-9.656l.043-.027a.44.44,0,0,0,.125-.618,12.7,12.7,0,0,0-9.99-5.425c-.284-.028-.577-.043-.871-.043A17.414,17.414,0,0,0,412.2,221.8a10.078,10.078,0,0,1-3,.9,9.836,9.836,0,0,1-3.107-.909,15.055,15.055,0,0,0-5.476-1.391l-.139,0a13.426,13.426,0,0,0-11.3,6.842Zm0,0" transform="translate(-387.312 -207.099)" fill="#fff"/>
+          <path id="Path_7" data-name="Path 7" d="M488.98,166a12.267,12.267,0,0,0-8.095,4.152c-1.691,1.96-3.343,5.226-2.908,8.518a.441.441,0,0,0,.4.382c.187.015.379.022.569.022a10.369,10.369,0,0,0,7.641-3.919,12.109,12.109,0,0,0,2.846-8.762.444.444,0,0,0-.456-.393Zm0,0" transform="translate(-456.948 -165.593)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

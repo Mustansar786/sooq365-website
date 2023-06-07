@@ -1,0 +1,59 @@
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width :50%
+}
+
+.socialIcons img {
+    width: 36px;
+    height: 36px;
+}
+
+.icon {
+   padding: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.copyText{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #040404;
+
+}
+.url {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 5px;
+    max-width: 450px;
+    overflow-wrap: break-word;
+
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.flexBetween img {
+    cursor: pointer;
+}
+
+.headerText {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #040404;
+
+}
+
+@media screen and (max-width: 450px) {
+    .url{
+        max-width: 300px;
+
+       }
+  }
